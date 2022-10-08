@@ -55,7 +55,9 @@ body {
 .link {
   text-decoration: none;
 }
-
+.head {
+  border: 1px solid #ececec;
+}
 .head-container {
   display: flex;
   align-items: center;

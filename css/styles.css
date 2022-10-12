@@ -48,6 +48,7 @@ img {
   height: auto;
 }
 .section {
+  padding-top: 94px;
   padding-bottom: 94px;
 }
 .container {
@@ -151,7 +152,6 @@ img {
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 30px;
-  padding-bottom: 30px;
 }
 .hero-button {
   font-family: inherit;
@@ -186,9 +186,6 @@ img {
   clip-path: inset(50%);
   margin: -1px;
 }
-.feature {
-  padding-top: 94px;
-}
 .feature-container {
   display: flex;
   gap: 30px;
@@ -208,6 +205,9 @@ img {
 }
 /*------------PROJECTS---------*/
 
+.projects.section {
+  padding-top: 0;
+}
 .projects-title {
   font-weight: 700;
   font-size: 36px;
@@ -266,18 +266,17 @@ img {
   padding-top: 60px;
   padding-bottom: 60px;
 }
-.logo-link {
+.footer-logo {
   font-family: "Raleway";
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
   color: var(--accent-color);
+  margin-bottom: 20px;
+  display: inline-block;
 }
 .logo-white {
   color: var(--hero-color);
-}
-.adress-list {
-  margin-top: 20px;
 }
 .adress-item:not(:last-child) {
   margin-bottom: 9px;
@@ -353,11 +352,12 @@ img {
 }
 .galery-card {
   flex-basis: calc((100% - 60px) / 3);
-  border: 1px solid #eeeeee;
+  /*border: 1px solid #eeeeee;*/
 }
 .galery-box {
-  padding-top: 20px;
-  padding-bottom: 20px;
+  padding: 20px 20px;
+  border: 1px solid #eeeeee;
+  border-top: none;
 }
 .galery-title {
   font-weight: 700;
